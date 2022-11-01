@@ -27,7 +27,7 @@
     
 <?php
 $name = $_POST['name'];
-$date = $_POST['tanggal'];
+$date = $_POST['date'];
 $time = $_POST['time'];
 $duration = $_POST['duration'];
 $car = $_POST['car'];
@@ -51,12 +51,12 @@ $phone = $_POST['Number'];
             </thead>
             <tbody>
                 <tr>
-                    <td><?php echo( "<br>");?></td>
+                    <td><?php echo(rand() );?></td>
                     <td><?php echo $name ?></td>
                     <td><?php echo $date ?></td>
                     <td><?php echo $time ?></td>
                     <td><?php echo $car ?></td>
-                    <td><?php echo $no ?></td>
+                    <td><?php echo $phone ?></td>
                 </tr>
             </tbody>
         </table>
